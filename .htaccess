@@ -1,0 +1,26 @@
+RewriteEngine On
+
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kemahu.com [NC]
+RewriteRule ^(.*)$ https://www.kemahu.com/$1 [L,R=301,NC]
+
+RewriteEngine On
+# Redirect with www
+RewriteCond %{HTTP_HOST} !^www\.kemahu\.com [NC,OR]
+
+# Redirect to https
+RewriteCond %{HTTPS} on 
+RewriteRule ^ https://www.kemahu.com%{REQUEST_URI} [NE,R=301,L]
+
+
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:kemahu.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?kemahu.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:kemahu.com

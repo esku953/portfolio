@@ -525,7 +525,7 @@ img.svg {
 .arlo_tm_hero_header_wrap .name_holder h3 {
   font-family: "Montserrat";
   text-transform: uppercase;
-  color:#e3872d ;
+  color: white;
   font-size: 50px;
   font-weight: 300;
 }
@@ -543,7 +543,7 @@ img.svg {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_hero_header_wrap .text_typing p {
-  color: #e3872d;
+  color: white;
   font-size: 24px;
   font-family: "Montserrat";
 }
@@ -1044,7 +1044,7 @@ img.svg {
   text-align: left;
 }
 .arlo_tm_progress span.label {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: #777;
   font-family: "Montserrat";
@@ -1899,6 +1899,7 @@ img.svg {
   min-height: 250px;
 }
 #arlo_tm_popup_blog .image_wrap .small {
+
   display: none;
 }
 #arlo_tm_popup_blog .image_wrap .news_image {
@@ -2845,4 +2846,5 @@ img.svg {
   background-color: #041230;
 }
 .showcase {
+
 }
