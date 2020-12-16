@@ -475,7 +475,7 @@ img.svg {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_universal_box_wrap .overlay_image.hero {
-  background-image: url(..//img/hero/back-1.jpg);
+  background-image: url(..//img/hero/bck.jpg);
 }
 .arlo_tm_universal_box_wrap .overlay_color.hero {
   background-color: rgba(0, 0, 0, 0);
@@ -1044,7 +1044,7 @@ img.svg {
   text-align: left;
 }
 .arlo_tm_progress span.label {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
   color: #777;
   font-family: "Montserrat";
@@ -1899,7 +1899,6 @@ img.svg {
   min-height: 250px;
 }
 #arlo_tm_popup_blog .image_wrap .small {
-
   display: none;
 }
 #arlo_tm_popup_blog .image_wrap .news_image {
@@ -2846,5 +2845,4 @@ img.svg {
   background-color: #041230;
 }
 .showcase {
-
 }
