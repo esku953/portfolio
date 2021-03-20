@@ -2746,7 +2746,7 @@ img.svg {
   }
   .arlo_tm_leftpart_wrap {
     display: none;
-    background-color: #333333;
+    background-color: rgb(51, 51, 51);
   }
 }
 @media (max-width: 768px) {
