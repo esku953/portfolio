@@ -1459,7 +1459,7 @@ img.svg {
 .entry {
   position: relative;
 }
-.arlo_tm_portfolio_image_main {
+ .arlo_tm_portfolio_image_main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1468,6 +1468,11 @@ img.svg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+   /* transition: all .3s ease;  */
+} 
+
+.arlo_tm_portfolio_wrap .arlo_tm_portfolio_list li :hover {
+  transform: scale(1.1) translateZ(0);
 }
 
 /*---------------------------------------------------*/
