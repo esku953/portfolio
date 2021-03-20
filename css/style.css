@@ -475,7 +475,7 @@ img.svg {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_universal_box_wrap .overlay_image.hero {
-  background-image: url(..//img/hero/bck.jpg);
+  background-image: url(..//img/hero/shut.jpg);
 }
 .arlo_tm_universal_box_wrap .overlay_color.hero {
   background-color: rgba(0, 0, 0, 0);
@@ -2746,6 +2746,7 @@ img.svg {
   }
   .arlo_tm_leftpart_wrap {
     display: none;
+    background-color: #333333;
   }
 }
 @media (max-width: 768px) {
